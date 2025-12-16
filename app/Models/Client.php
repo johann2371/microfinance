@@ -10,7 +10,7 @@ class Client extends Model
     use HasFactory;
 
     protected $fillable = ['nom', 'email', 'telephone'];
-
+    // model
     public function comptes()
     {
         return $this->hasMany(Compte::class);

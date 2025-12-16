@@ -16,4 +16,4 @@ class Transaction extends Model
         return $this->belongsTo(Compte::class);
     }
 }
-s
+
